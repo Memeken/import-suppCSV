@@ -1,0 +1,114 @@
+body {
+    font-family: Helvetica, sans-serif;
+	background: url('Font.jpg') no-repeat center fixed;
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover; 
+	margin:0;
+	padding:0;
+}
+  
+a {
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.head{
+    display: block;
+    box-shadow: 0px 10px 2px 1px rgba(99, 98, 98, 0.2);
+    background: rgb(251, 251, 255);
+    border-radius: 10px;
+	width: 80%;
+    margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;   
+}
+
+.logo{
+      padding-top: 3%;;
+      margin-left: 10%;
+      float: left;      
+}
+
+h1{ 
+  background: linear-gradient(330deg, #2f5269 0%, #2f3f83 25%, #3a7c7c 50%, #2c8b74 75%, #52b3e0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Righteous', cursive;
+}
+
+ul{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+li.first{
+    display: inline-block; 
+}
+
+li.first a{
+    margin-right: 35px;
+    margin-left: 35px;
+    text-decoration: none;
+}
+
+li.first:hover{
+    background: rgba(99, 98, 98, 0.2);
+}
+
+.import{
+	margin: auto;
+	width: 38%;
+	box-shadow: 1px 1px 5px 5px rgba(99, 98, 98, 0.2);
+	border-radius: 5%;
+	padding: 1%;
+}
+
+h3{
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	background: linear-gradient(330deg, #2f5269 0%, #2f3f83 25%, #3a7c7c 50%, #2c8b74 75%, #52b3e0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 70px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #888;
+    width: 50%;
+    height: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
